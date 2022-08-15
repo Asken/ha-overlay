@@ -1,0 +1,20 @@
+﻿HAUrl: http://homeassistant.local:8123
+Token: [replace with your HA token]
+FontSize: 14
+AlwaysOnTop: true
+Sensors:
+- Name: sensor.accumulated_cost_address_51a
+  Label: "-"
+  Format: 0.00
+- Name: sensor.accumulated_reward_address_51a
+  Label: "+"
+  Format: 0.00
+  Color: lightgreen
+- Name: sensor.electricity_price_address_51a
+  Label: "$"
+  Format: "0.00"
+- Name: sensor.power_production_address_51a
+  Label: "P"
+  Color: lightgreen
+- Name: sensor.power_address_51a
+  Label: "U"
